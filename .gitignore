@@ -2,3 +2,7 @@ target/
 .idea/
 testframework.iml
 .DS_Store
+README.md
+json_output/
+junit_xml/
+test-outout/

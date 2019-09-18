@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="0">
-<testcase classname="Get book by ISBN" name="Get create and update" time="0">
-<skipped><![CDATA[Given Get a user in service.................................................undefined
-Given Create user with name "Jyothi" salary "123" and age "24"..............undefined
-When Update User userid "16" with name "Test" salary "234" and age "25".....undefined
-]]></skipped>
-</testcase>
-</testsuite>
