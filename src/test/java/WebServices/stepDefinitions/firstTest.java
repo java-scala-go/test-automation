@@ -10,7 +10,7 @@ import org.json.simple.JSONObject;
 public class firstTest {
 
     @Given("^Get a user in service$")
-    public void get_a_user_in_service() throws Throwable {
+    public void get_a_user_in_service() throws Throwable{
             RequestSpecification request = RestAssured.given();
             Response response = request.get("http://dummy.restapiexample.com/api/v1/employees");
             int statusCode = response.getStatusCode();
@@ -19,7 +19,7 @@ public class firstTest {
         }
 
     @Given("^Create user with name \"([^\"]*)\" salary \"([^\"]*)\" and age \"([^\"]*)\"$")
-    public void create_user_with_name_salary_and_age(String name, String salary, String age) throws Throwable {
+    public void create_user_with_name_salary_and_age(String name, String salary, String age) throws Throwable  {
                 RequestSpecification request = RestAssured.given();
 
                 JSONObject requestParams = new JSONObject();
